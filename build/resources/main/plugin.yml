@@ -1,0 +1,16 @@
+name: CommandSpyNeon
+version: 1.0
+main: me.titledneon.commandspyneon.CommandSpyPlugin
+api-version: 1.16
+author: TitledNeon
+commands:
+  commandspy:
+    description: Toggle command spy
+    usage: /<command>
+permissions:
+  commandspy.toggle:
+    description: Allows toggling command spy
+    default: op
+  commandspy.see:
+    description: Allows seeing commands from other players
+    default: op
